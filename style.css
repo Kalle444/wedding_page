@@ -8,6 +8,12 @@
   height: 100%;
   width: 100%;
 }
+
+#bannerText {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
 #banner h1 {
   color: white;
   font-size: 50px;
@@ -20,13 +26,13 @@
 }
 #footer{
   padding: 30px;
-  background: rgb(30, 30, 30);
+  /* background: rgb(30, 30, 30); */
   color: lightgrey;
 }
 
 body{
 	text-align: center;
-	background: #00ECB9;
+	background: black;
   font-family: sans-serif;
   font-weight: 100;
 }
@@ -50,7 +56,7 @@ h1{
 #clockdiv > div{
 	padding: 10px;
 	border-radius: 3px;
-	background: #00BF96;
+	/* background: #00BF96;	 */
 	display: inline-block;
 }
 
