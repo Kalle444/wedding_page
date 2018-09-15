@@ -6,6 +6,7 @@
   color: white;
   text-shadow: 1px 1px 5px black;
   height: 100%;
+  width: 100%;
 }
 #banner h1 {
   color: white;
@@ -21,6 +22,48 @@
   padding: 30px;
   background: rgb(30, 30, 30);
   color: lightgrey;
+}
+
+body{
+	text-align: center;
+	background: #00ECB9;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+h1{
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #00BF96;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #00816A;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
 }
 /* .card{
   padding: 50px;
