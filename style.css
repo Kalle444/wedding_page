@@ -1,77 +1,93 @@
-#banner{
-  text-align: center;
-  background-image: url("images/Nighthawk.jpg");
-  background-size: cover;
-  padding: 150px;
-  color: white;
-  text-shadow: 1px 1px 5px black;
-  height: 100%;
-  width: 100%;
-}
-
-#bannerText {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-}
-#banner h1 {
-  color: white;
-  font-size: 50px;
-}
-#banner p {
-  color: white;
-  opacity: 0.8;
-  font-size: 30px;
-  font-weight: lighter;
-}
-#footer{
-  padding: 30px;
-  /* background: rgb(30, 30, 30); */
-  color: lightgrey;
-}
-
+/* General */
 body{
-	text-align: center;
-	background: black;
+	background: rgb(240, 239, 229);
   font-family: sans-serif;
   font-weight: 100;
 }
 
-h1{
-  color: #396;
-  font-weight: 100;
-  font-size: 40px;
-  margin: 40px 0px 20px;
+/* Welcome page */
+#welcome-container{
+	height: 100%;
+  width: 100%;
+	display: flex;
+	position: relative;
 }
 
-#clockdiv{
-	font-family: sans-serif;
-	color: #fff;
-	display: inline-block;
-	font-weight: 100;
+#welcome-container-right{
+	flex: 50%;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+#welcome-container-right-top{
+	flex-basis: 15%;
+}
+
+#welcome-container-right-bottom{
+	background: rgb(65, 95, 87);
+	position: relative;
+	flex-basis: 85%;
+	display: block;
+}
+
+#welcome-info-box{
+	background-color: rgb(255, 255, 255);
+	position: absolute;
+	right: 20px;
+	top: -25px;
+	padding: 5px;
+	height: 50px;
+	width: 300px;
+}
+
+#welcome-info-box p {
 	text-align: center;
-	font-size: 30px;
+	vertical-align: middle;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 18pt;
+	color: black;
+	margin: 0;
+	margin-top: 5px;
 }
 
-#clockdiv > div{
-	padding: 10px;
-	border-radius: 3px;
-	/* background: #00BF96;	 */
-	display: inline-block;
+
+#welcome-image img{
+  display: block;
+  width:480px;
+  height:508px;
+	position: absolute;
+	bottom: 20px;
+	right: 40px;
 }
 
-#clockdiv div > span{
-	padding: 15px;
-	border-radius: 3px;
-	background: #00816A;
-	display: inline-block;
+
+/* Left side */
+#welcome-container-left{
+	flex: 50%;
 }
 
-.smalltext{
-	padding-top: 5px;
-	font-size: 16px;
+#welcome-text{
+	position: absolute;
+	left: 110px;
+	top: 200px;
+	z-index: 1;
 }
-/* .card{
-  padding: 50px;
-  font-weight: lighter;
-} */
+
+#welcome-text h1 {
+	font-size: 80pt;
+	font-family: 'Cabin', sans-serif;
+	color: black;
+}
+
+#welcome-text h2 {
+	font-size: 50pt;
+	font-family: 'Libre Baskerville', serif;
+	color: black;
+}
+
+#welcome-text span {
+	font-size: 80pt;
+	font-family: 'Varela Round', sans-serif;
+	color: black;
+}
