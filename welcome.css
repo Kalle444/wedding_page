@@ -54,11 +54,12 @@ body{
 
 #welcome-image img{
   display: block;
-  width:480px;
-  height:508px;
 	position: absolute;
 	bottom: 20px;
 	right: 40px;
+	height: auto;
+	max-height: 508px;
+	width: auto;
 }
 
 
@@ -90,4 +91,31 @@ body{
 	font-size: 80pt;
 	font-family: 'Varela Round', sans-serif;
 	color: black;
+}
+
+@media only screen and (min-width: 1441px) {
+	#welcome-text{
+		left: 235px;
+		top: 200px;
+	}
+
+	#welcome-image img{
+	  height: auto;
+		max-height: 600px;
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	#welcome-image img{
+	  height: auto;
+	  max-width: 380px;
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	#welcome-image img{
+	  display: none;
+	}
 }
