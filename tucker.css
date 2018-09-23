@@ -1,27 +1,27 @@
 
-#ceremony-container{
+#tucker-container{
 	height: 100%;
   width: 100%;
 	display: flex;
 	position: relative;
 }
 
-#ceremony-container-right{
+#tucker-container-right{
 	flex: 50%;
 	display: flex;
 	flex-direction: column;
 	position: relative;
 }
 
-#ceremony-container-right-top{
+#tucker-container-right-top{
+	flex-basis: 30%;
+}
+
+#tucker-container-left-top{
 	flex-basis: 15%;
 }
 
-#ceremony-container-left-top{
-	flex-basis: 15%;
-}
-
-#ceremony-container-left-bottom{
+#tucker-container-left-bottom{
 	flex-basis: 85%;
 	display: flex;
 	flex-direction: column;
@@ -29,28 +29,17 @@
 	align-items: center;
 }
 
-#ceremony-container-right-bottom{
+#tucker-container-right-bottom{
 	background: rgb(65, 95, 87);
 	position: relative;
-	flex-basis: 85%;
+	flex-basis: 70%;
 	display: block;
 }
 
-#pole {
+#table-flower {
 	display: block;
 	position: absolute;
-	bottom: 40px;
-	right: 40px;
-	height: auto;
-	max-height: 530px;
-	width: auto;
-	z-index: 1;
-}
-
-#flower {
-	display: block;
-	position: absolute;
-	bottom: 340px;
+	bottom: 38px;
 	right: 40px;
 	height: auto;
 	max-height: 530px;
@@ -59,36 +48,36 @@
 
 
 /* Left side */
-#ceremony-container-left{
+#tucker-container-left{
 	flex: 50%;
 	display: flex;
 	flex-direction: column;
 }
 
-#ceremony-text{
+#tucker-text{
 	text-align: center;
 	color: black;
 	font-family: 'Libre Baskerville', serif;
 
 }
 
-#ceremony-title {
+#tucker-title {
 	font-size: 70px;
 }
 
-#ceremony-sub-text {
+#tucker-sub-text {
 	font-size: 27px;
 	padding: 20px 40px;
 	margin-top: 0px;
 }
 /*
 @media only screen and (min-width: 1441px) {
-	#ceremony-text{
+	#tucker-text{
 		left: 235px;
 		top: 200px;
 	}
 
-	#ceremony-image img{
+	#tucker-image img{
 	  height: auto;
 		max-height: 600px;
 		width: auto;
@@ -96,7 +85,7 @@
 }
 
 @media only screen and (max-width: 1024px) {
-	#ceremony-image img{
+	#tucker-image img{
 	  height: auto;
 	  max-width: 380px;
 		width: auto;
@@ -104,7 +93,7 @@
 }
 
 @media only screen and (max-width: 375px) {
-	#ceremony-image img{
+	#tucker-image img{
 	  display: none;
 	}
 } */
