@@ -1,0 +1,117 @@
+/* General */
+body{
+	background: rgb(240, 239, 229);
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+/* Welcome page */
+#ceremony-container{
+	height: 100%;
+  width: 100%;
+	display: flex;
+	position: relative;
+}
+
+#ceremony-container-right{
+	flex: 50%;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+#ceremony-container-right-top{
+	flex-basis: 15%;
+}
+
+#ceremony-container-left-top{
+	flex-basis: 15%;
+}
+
+#ceremony-container-left-bottom{
+	flex-basis: 85%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#ceremony-container-right-bottom{
+	background: rgb(65, 95, 87);
+	position: relative;
+	flex-basis: 85%;
+	display: block;
+}
+
+#pole {
+	display: block;
+	position: absolute;
+	bottom: 40px;
+	right: 40px;
+	height: auto;
+	max-height: 530px;
+	width: auto;
+	z-index: 1;
+}
+
+#flower {
+	display: block;
+	position: absolute;
+	bottom: 340px;
+	right: 40px;
+	height: auto;
+	max-height: 530px;
+	width: 590px;
+}
+
+
+/* Left side */
+#ceremony-container-left{
+	flex: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+#ceremony-text{
+	text-align: center;
+	color: black;
+	font-family: 'Libre Baskerville', serif;
+
+}
+
+#title {
+	font-size: 70px;
+}
+
+#sub-text {
+	font-size: 27px;
+	padding: 20px 40px;
+	margin-top: 0px;
+}
+/*
+@media only screen and (min-width: 1441px) {
+	#ceremony-text{
+		left: 235px;
+		top: 200px;
+	}
+
+	#ceremony-image img{
+	  height: auto;
+		max-height: 600px;
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	#ceremony-image img{
+	  height: auto;
+	  max-width: 380px;
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	#ceremony-image img{
+	  display: none;
+	}
+} */
