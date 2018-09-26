@@ -4,3 +4,28 @@ body{
   font-family: sans-serif;
   font-weight: 100;
 }
+
+.title-text-size{
+	font-size: 70px;
+}
+
+.sub-text-size{
+	font-size: 27px;
+}
+
+@media only screen and (max-width: 1440px) {
+	.title-text-size{
+		font-size: 54px;
+	}
+
+	.sub-text-size{
+		font-size: 21px;
+	}
+
+}
+
+@media only screen and (max-width: 375px) {
+	#welcome-image img{
+	  display: none;
+	}
+}
