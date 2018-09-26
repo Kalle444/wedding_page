@@ -1,0 +1,48 @@
+.green-box{
+  height: 100%;
+  width: 100%;
+  background: rgb(65, 95, 87);
+}
+
+.white-box{
+  height: 100%;
+  width: 100%;
+  background: rgb(240, 239, 229);
+}
+
+.small-text{
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.white-text{
+  color: rgb(240, 239, 229);
+
+}
+
+.black-text{
+  color: black;
+}
+
+
+.front-title{
+  font-size: 40px;
+
+}
+
+.front-sub-text{
+  font-size: 35px;
+}
+
+.title{
+  font-size: 40px;
+
+}
+
+.sub-text{
+  font-size: 35px;
+}
