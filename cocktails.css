@@ -51,32 +51,11 @@
 }
 
 #cocktails-title {
-	
+
 }
 
 .cocktails-sub-text {
-	
+
 	padding: 20px 70px;
 	margin-top: 0px;
 }
-/*
-@media only screen and (min-width: 1441px) {
-	#cocktails-text{
-		left: 235px;
-		top: 200px;
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	#cocktails-image img{
-	  height: auto;
-	  max-width: 380px;
-		width: auto;
-	}
-}
-
-@media only screen and (max-width: 375px) {
-	#cocktails-image img{
-	  display: none;
-	}
-} */

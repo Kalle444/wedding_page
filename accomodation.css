@@ -39,12 +39,12 @@
 }
 
 #accomodation-title {
-	
+
 	margin-right: 25px;
 }
 
 .accomodation-sub-text {
-	
+
 	padding: 20px 140px;
 	margin-top: 0px;
 	margin-right: 25px;
@@ -56,34 +56,3 @@
 	margin-top: 0px;
 	margin-right: 25px;
 }
-/*
-@media only screen and (min-width: 1441px) {
-	#accomodation
-	-text{
-		left: 235px;
-		top: 200px;
-	}
-
-	#accomodation
-	-image img{
-	  height: auto;
-		max-height: 600px;
-		width: auto;
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	#accomodation
-	-image img{
-	  height: auto;
-	  max-width: 380px;
-		width: auto;
-	}
-}
-
-@media only screen and (max-width: 375px) {
-	#accomodation
-	-image img{
-	  display: none;
-	}
-} */

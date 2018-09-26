@@ -13,6 +13,11 @@ body{
 	font-size: 27px;
 }
 
+img {
+    height: auto;
+    width: auto; /* ie8 */
+}
+
 @media only screen and (max-width: 1440px) {
 	.title-text-size{
 		font-size: 54px;
