@@ -14,23 +14,14 @@
 #statue-head {
 	display: block;
 	position: absolute;
-	bottom: 40px;
-	right: 40px;
+	bottom: 200px;
+	right: 273px;
 	height: auto;
 	max-height: 530px;
 	width: auto;
 	z-index: 1;
 }
 
-#fountain {
-	display: block;
-	position: absolute;
-	bottom: 210px;
-	right: 90px;
-	height: auto;
-	max-height: 530px;
-	width: 590px;
-}
 
 /* Left side */
 #reception-container-left{

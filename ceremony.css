@@ -40,9 +40,9 @@
 	display: block;
 	position: absolute;
 	bottom: 40px;
-	right: 40px;
+	right: 50px;
 	height: auto;
-	max-height: 530px;
+	max-height: 509px;
 	width: auto;
 	z-index: 1;
 }
@@ -50,11 +50,11 @@
 #flower {
 	display: block;
 	position: absolute;
-	bottom: 340px;
-	right: 40px;
+	bottom: 280px;
+	right: 200px;
 	height: auto;
 	max-height: 530px;
-	width: 590px;
+	width: 440px;
 }
 
 

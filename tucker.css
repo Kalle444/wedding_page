@@ -39,11 +39,11 @@
 #table-flower {
 	display: block;
 	position: absolute;
-	bottom: 38px;
+	bottom: 80px;
 	right: 40px;
 	height: auto;
-	max-height: 530px;
-	width: 590px;
+	max-height: 670px;
+	width: 450px;
 }
 
 
