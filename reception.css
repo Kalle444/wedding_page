@@ -22,7 +22,11 @@
 	z-index: 1;
 }
 
-
+@media only screen and (max-width: 1440px) {
+	#statue-head {
+		max-height: calc(530px * 0.90);
+	}
+}
 /* Left side */
 #reception-container-left{
 	flex: 60%;
@@ -41,11 +45,11 @@
 }
 
 #title {
-	
+
 }
 
 .reception-sub-text {
-	
+
 	padding: 20px 120px;
 	margin-top: 0px;
 }

@@ -30,10 +30,20 @@
 	display: block;
   position: absolute;
   height: auto;
-  max-height: 540px;
+  /* max-height: 540px; */
   width: 384px;
   left: 46px;
   top: 106px;
+}
+
+@media only screen and (max-width: 1440px) {
+	#cocktails-champagne {
+		width: calc(384px * 0.90);
+	}
+
+	#cocktails-drinks {
+		max-height: calc(400px * 0.90);
+	}
 }
 
 /* Left side */

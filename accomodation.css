@@ -2,7 +2,6 @@
 	height: 100%;
   width: 100%;
 	display: flex;
-	position: relative;
 	margin-top: 70px;
 }
 
@@ -20,6 +19,13 @@
 	max-height: 530px;
 	width: 570px;
 }
+
+@media only screen and (max-width: 1440px) {
+	#accomodation-bed {
+		width: calc(570px * 0.90);
+	}
+}
+
 
 /* Left side */
 #accomodation-container-left{

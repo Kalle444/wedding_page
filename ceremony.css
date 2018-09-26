@@ -53,8 +53,18 @@
 	bottom: 280px;
 	right: 200px;
 	height: auto;
-	max-height: 530px;
+	/* max-height: 530px; */
 	width: 440px;
+}
+
+@media only screen and (max-width: 1440px) {
+	#pole {
+		max-height: calc(509px * 0.90);
+	}
+
+	#flower {
+		width: calc(440px * 0.90);
+	}
 }
 
 

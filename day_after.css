@@ -42,8 +42,14 @@
 	bottom: 115px;
 	right: 40px;
 	height: auto;
-	max-height: 650px;
+	/* max-height: 650px; */
 	width: 450px;
+}
+
+@media only screen and (max-width: 1440px) {
+	#day-after-img  {
+		width: calc(450px * 0.90);
+	}
 }
 
 
@@ -62,11 +68,11 @@
 }
 
 #day-after-title {
-	
+
 }
 
 .day-after-sub-text {
-	
+
 	padding: 20px 40px;
 	margin-top: 0px;
 }

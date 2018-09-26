@@ -31,12 +31,17 @@
 	display: block;
 	position: absolute;
 	height: auto;
-	max-height: 542px;
+	/* max-height: 542px; */
 	width: 449px;
 	left: 145px;
 	bottom: 67px;
 }
 
+@media only screen and (max-width: 1440px) {
+	#practical-ceiling {
+		width: calc(449px * 0.90);
+	}
+}
 
 #practical-container-left-bottom {
 	flex: 15%;
@@ -62,11 +67,11 @@
 }
 
 #practical-title {
-	
+
 }
 
 .practical-sub-text {
-	
+
 	padding: 20px 70px;
 	margin-top: 0px;
 }

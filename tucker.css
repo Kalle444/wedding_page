@@ -42,10 +42,15 @@
 	bottom: 80px;
 	right: 40px;
 	height: auto;
-	max-height: 670px;
+	/* max-height: 670px; */
 	width: 450px;
 }
 
+@media only screen and (max-width: 1440px) {
+	#table-flower {
+		width: calc(450px * 0.90);
+	}
+}
 
 /* Left side */
 #tucker-container-left{
@@ -62,11 +67,11 @@
 }
 
 #tucker-title {
-	
+
 }
 
 .tucker-sub-text {
-	
+
 	padding: 20px 40px;
 	margin-top: 0px;
 }

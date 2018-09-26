@@ -29,8 +29,8 @@ img {
 
 }
 
-@media only screen and (max-width: 375px) {
+/* @media only screen and (max-width: 375px) {
 	#welcome-image img{
 	  display: none;
 	}
-}
+} */
