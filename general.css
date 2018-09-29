@@ -4,33 +4,46 @@ body{
   font-family: sans-serif;
   font-weight: 100;
 }
-
-.title-text-size{
-	font-size: 70px;
-}
-
-.sub-text-size{
-	font-size: 27px;
-}
-
+.title-text-size{ font-size: 70px; }
+.sub-text-size{ font-size: 27px; }
+.medium-size{ display: none!important; }
 img {
     height: auto;
     width: auto; /* ie8 */
 }
 
-@media only screen and (max-width: 1440px) {
-	.title-text-size{
-		font-size: 54px;
-	}
-
-	.sub-text-size{
-		font-size: 23px;
-	}
-
+@media only screen and (min-width: 0px) and (max-width: 700px) {
+	.title-text-size{ font-size: 35px; }
+	.sub-text-size{ font-size: 17px; }
+	.non-small { display: none!important; }
+	img { display: none!important; }
+	.medium-size{ display: initial!important; }
 }
 
-/* @media only screen and (max-width: 375px) {
-	#welcome-image img{
-	  display: none;
-	}
+
+@media only screen and (min-width: 1020px) and (max-width: 1269px) {
+	.title-text-size{ font-size: 46px; }
+	.sub-text-size{ font-size: 23px; }
+	img { display: none!important; }
+}
+
+@media only screen and (min-width: 1270px) and (max-width: 1439px) {
+	.title-text-size{ font-size: 58px; }
+	.sub-text-size{ font-size: 25px; }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1669px) {
+	.title-text-size{ font-size: 70px; }
+	.sub-text-size{ font-size: 27px; }
+}
+
+@media only screen and (min-width: 1670px) {
+	.title-text-size{ font-size: 80px; }
+	.sub-text-size{ font-size: 30px; }
+}
+
+
+/* @media only screen and (max-width: 1440px) {
+	#pole { max-height: calc(509px * 0.90); }
+	#flower { width: calc(440px * 0.90); }
 } */

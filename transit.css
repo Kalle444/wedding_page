@@ -37,13 +37,6 @@
 	bottom: 46px;
 }
 
-@media only screen and (max-width: 1440px) {
-	#transit-train {
-		width: calc(450px * 0.90);
-	}
-}
-
-
 #transit-container-left-bottom {
 	flex: 15%;
 	background: rgb(240, 239, 229);

@@ -36,15 +36,6 @@
   top: 106px;
 }
 
-@media only screen and (max-width: 1440px) {
-	#cocktails-champagne {
-		width: calc(384px * 0.90);
-	}
-
-	#cocktails-drinks {
-		max-height: calc(400px * 0.90);
-	}
-}
 
 /* Left side */
 #cocktails-container-left{

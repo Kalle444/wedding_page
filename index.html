@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Cabin:500|Libre+Baskerville:400i|Varela+Round" rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
     <link href='general.css' rel='stylesheet'>
+    <link href='ipad.css' rel='stylesheet'>
     <link href='welcome.css' rel='stylesheet'>
     <link href='about_day.css' rel='stylesheet'>
     <link href='ceremony.css' rel='stylesheet'>
@@ -24,13 +25,15 @@
   </head>
 
   <body>
-    <div id="medium-size" class="hidden-sm hidden-xs">
-      <div id="welcome-container" class="hidden-sm hidden-xs">
-        <div id="welcome-container-left">
-          <div id="welcome-text">
-            <!-- Remember to update the text for smaller versions as well -->
-            <h1>LOUISE<span>&</span>KALLE</h1>
-            <h2>05&middot;01&middot;2019</h2>
+      <div id="welcome-container" class="non-small">
+        <div id="welcome-container-left" class="">
+          <div id="welcome-container-left-top"></div>
+          <div id="welcome-container-left-bottom">
+            <div id="welcome-text">
+              <!-- Remember to update the text for smaller versions as well -->
+              <h1>LOUISE<span>&</span>KALLE</h1>
+              <h2>05&middot;01&middot;2019</h2>
+            </div>
           </div>
         </div>
         <div id="welcome-container-right">
@@ -46,7 +49,7 @@
           </div>
         </div>
       </div>
-      <div id="about-day-container" class="hidden-sm hidden-xs">
+      <div id="about-day-container" class="non-small">
         <div id="about-day-text">
           <!-- Remember to update the text for smaller versions as well -->
           <div id="title" class="title-text-size">More about the day</div>
@@ -65,10 +68,10 @@
                   </div>
                   <div id="about-day-right-container"></div>
                 </div>
-      <div id="ceremony-container" class="hidden-sm hidden-xs">
-        <div id="ceremony-container-left">
-          <div id="ceremony-container-left-top"></div>
-          <div id="ceremony-container-left-bottom">
+      <div id="ceremony-container" class="non-small">
+        <div id="ceremony-container-left" class="">
+          <div id="ceremony-container-left-top" class=""></div>
+          <div id="ceremony-container-left-bottom" class="">
             <div id="ceremony-text">
               <!-- Remember to update the text for smaller versions as well -->
               <div id="ceremony-title" class="title-text-size">Ceremony</div>
@@ -87,17 +90,17 @@
             </div>
           </div>
         </div>
-        <div id="ceremony-container-right">
-          <div id="ceremony-container-right-top"></div>
-          <div id="ceremony-container-right-bottom">
-            <div id="ceremony-image">
+        <div id="ceremony-container-right" class="">
+          <div id="ceremony-container-right-top" class=""></div>
+          <div id="ceremony-container-right-bottom" class="">
+            <div id="ceremony-image" class="">
               <img id="pole" src="images/architecture-art-black-and-white.jpg" alt="">
               <img id="flower" src="images/evening-beautiful.jpg" alt="">
             </div>
           </div>
         </div>
       </div>
-      <div id="reception-container" class="hidden-sm hidden-xs">
+      <div id="reception-container" class="non-small">
         <div id="reception-container-left">
           <div id="reception-text">
             <!-- Remember to update the text for smaller versions as well -->
@@ -120,7 +123,7 @@
           </div>
         </div>
       </div>
-      <div id="tucker-container" class="hidden-sm hidden-xs">
+      <div id="tucker-container" class="non-small">
         <div id="tucker-container-left">
           <div id="tucker-container-left-top"></div>
           <div id="tucker-container-left-bottom">
@@ -153,7 +156,7 @@
           </div>
         </div>
       </div>
-      <div id="cocktails-container" class="hidden-sm hidden-xs">
+      <div id="cocktails-container" class="non-small">
         <div id="cocktails-container-left">
           <div id="cocktails-image">
             <img id="cocktails-drinks" src="images/blur-breakfast-cocktail.jpg" alt="">
@@ -174,7 +177,7 @@
           </div>
         </div>
       </div>
-      <div id="accomodation-container" class="hidden-sm hidden-xs">
+      <div id="accomodation-container" class="non-small">
         <div id="accomodation-container-left">
           <div id="accomodation-text">
             <!-- Remember to update the text for smaller versions as well -->
@@ -198,7 +201,7 @@
           </div>
         </div>
       </div>
-      <div id="transit-container" class="hidden-sm hidden-xs">
+      <div id="transit-container" class="non-small">
         <div id="transit-container-left">
           <div id="transit-image">
             <img id="transit-train" src="images/chairs-empty-floor.jpg" alt="">
@@ -226,7 +229,7 @@
           <div id="transit-container-right-bottom"></div>
         </div>
       </div>
-      <div id="day-after-container" class="hidden-sm hidden-xs">
+      <div id="day-after-container" class="non-small">
         <div id="day-after-container-left">
           <div id="day-after-container-left-top"></div>
           <div id="day-after-container-left-bottom">
@@ -253,7 +256,7 @@
           </div>
         </div>
       </div>
-      <div id="practical-container" class="hidden-sm hidden-xs">
+      <div id="practical-container" class="non-small">
         <div id="practical-container-left">
           <div id="practical-image">
             <img id="practical-ceiling" src="images/ceiling-indoor-light.jpg" alt="">
@@ -283,10 +286,10 @@
           <div id="practical-container-right-bottom"></div>
         </div>
       </div>
-    </div>
-    <div id="small-version" class="visible-xs-block visible-sm-block">
+    <div id="small-version" class="medium-size">
       <div class="green-box white-text small-text">
-        <div class="front-title">Mobile version to come :)</div>
+        <div class="title-text-size">Mobile version to come :)</div>
+        <div class="sub-text-size">Let's try this out</div>
         <!-- <div class="front-sub-text">05&middot;01&middot;2019</div> -->
       </div>
       <!-- <div class="white-box black-text small-text">

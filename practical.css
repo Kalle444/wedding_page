@@ -37,12 +37,6 @@
 	bottom: 67px;
 }
 
-@media only screen and (max-width: 1440px) {
-	#practical-ceiling {
-		width: calc(449px * 0.90);
-	}
-}
-
 #practical-container-left-bottom {
 	flex: 15%;
 	background: rgb(240, 239, 229);

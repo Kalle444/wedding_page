@@ -1,0 +1,132 @@
+@media only screen and (min-width: 701px) and (max-width: 1019px) {
+	.title-text-size{ font-size: 35px; }
+	.sub-text-size{ font-size: 17px; }
+	#bullet { margin: 40px 60px 0px 0px; }
+	#title { margin: 0px 40px 0px 0px; }
+	#pole {
+		max-height: calc(509px * 0.70)!important;
+		bottom: 0px!important;
+		right: 0px!important;
+		position: static!important;
+	 }
+	#flower { display: none!important; }
+	#cocktails-drinks { display: none!important; }
+	#ceremony-image{
+		justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+	}
+
+	#reception-image{
+		justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+	}
+
+	#statue-head {
+		max-height: calc(530px * 0.70)!important;
+		bottom: 0px!important;
+		right: 0px!important;
+		position: static!important;
+	 }
+
+	 #tucker-image{
+		 justify-content: center;
+		 align-items: center;
+		 flex-direction: column;
+		 display: flex;
+		 height: 100%;
+	 }
+
+	 #table-flower {
+		 width: calc(450px * 0.70)!important;
+		 bottom: 0px!important;
+		 right: 0px!important;
+		 position: static!important;
+	 }
+
+	 #accomodation-image{
+		 justify-content: center;
+		 align-items: center;
+		 flex-direction: column;
+		 display: flex;
+		 height: 100%;
+	 }
+
+	 #accomodation-bed {
+		 width: calc(570px * 0.70)!important;
+		 bottom: 0px!important;
+		 right: 0px!important;
+		 position: static!important;
+	 }
+
+	 #cocktails-image{
+		 justify-content: center;
+		 align-items: center;
+		 flex-direction: column;
+		 height: 100%;
+		 display: flex;
+	 }
+
+	 #cocktails-container-left{
+		 justify-content: center;
+		 align-items: center;
+		 flex-direction: column;
+	 }
+
+	 #cocktails-champagne {
+		 width: calc(384px * 0.70)!important;
+		 bottom: 0px!important;
+		 right: 0px!important;
+		 position: static!important;
+	 }
+
+	 #transit-image{
+		 justify-content: center;
+		 align-items: center;
+		 flex-direction: column;
+		 display: flex;
+		 height: 100%;
+	 }
+
+	 #transit-train {
+		 width: calc(450px * 0.70)!important;
+		 bottom: 0px!important;
+		 right: 0px!important;
+		 position: static!important;
+	 }
+
+	 #day-after-image{
+		 justify-content: center;
+		 align-items: center;
+		 flex-direction: column;
+		 display: flex;
+		 height: 100%;
+	 }
+
+	 #day-after-img {
+		 width: calc(450px * 0.70)!important;
+		 bottom: 0px!important;
+		 right: 0px!important;
+		 position: static!important;
+	 }
+
+	 #practical-image{
+		 justify-content: center;
+		 align-items: center;
+		 flex-direction: column;
+		 display: flex;
+		 height: 100%;
+	 }
+
+	 #practical-ceiling {
+		 width: calc(450px * 0.70)!important;
+		 bottom: 0px!important;
+		 right: 0px!important;
+		 position: static!important;
+	 }
+ }

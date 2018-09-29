@@ -46,13 +46,6 @@
 	width: 450px;
 }
 
-@media only screen and (max-width: 1440px) {
-	#day-after-img  {
-		width: calc(450px * 0.90);
-	}
-}
-
-
 /* Left side */
 #day-after-container-left{
 	flex: 50%;
