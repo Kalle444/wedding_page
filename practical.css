@@ -23,7 +23,7 @@
 	flex-direction: column;
 }
 #practical-image {
-	flex: 85%;
+	flex: 100%;
 	background: rgb(65, 95, 87);
 }
 
@@ -37,7 +37,7 @@
 	bottom: 67px;
 }
 
-#practical-container-left-bottom {
+/* #practical-container-left-bottom {
 	flex: 15%;
 	background: rgb(240, 239, 229);
 }
@@ -45,10 +45,10 @@
 #practical-container-right-bottom {
 	flex: 15%;
 	background: rgb(240, 239, 229);
-}
+} */
 
 #practical-container-right-top{
-	flex: 85%;
+	flex: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

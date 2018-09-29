@@ -24,22 +24,51 @@ img {
 @media only screen and (min-width: 1020px) and (max-width: 1269px) {
 	.title-text-size{ font-size: 46px; }
 	.sub-text-size{ font-size: 23px; }
-	img { display: none!important; }
+	#pole { max-height: calc(509px * 0.75)!important; }
+	#statue-head { max-height: calc(530px * 0.75)!important; }
+	#table-flower { width: calc(450px * 0.75)!important; }
+	#accomodation-bed { width: calc(575px * 0.75)!important; }
+	#transit-train { width: calc(450px * 0.75)!important; }
+	#day-after-img { width: calc(450px * 0.75)!important; }
+	#practical-ceiling { width: calc(450px * 0.75)!important; }
+	#flower { width: calc(440px * 0.75)!important; }
+	#cocktails-champagne { width: calc(384px * 0.75)!important; }
+	#cocktails-drinks { max-height: calc(400px * 0.75)!important; }
+	#welcome-image img { max-height: 400px!important; }
 }
 
-@media only screen and (min-width: 1270px) and (max-width: 1439px) {
+@media only screen and (min-width: 1270px) and (max-width: 1438px) {
 	.title-text-size{ font-size: 58px; }
 	.sub-text-size{ font-size: 25px; }
+	#pole { max-height: calc(509px * 0.90)!important; }
+	#statue-head { max-height: calc(530px * 0.90)!important; }
+	#table-flower { width: calc(450px * 0.90)!important; }
+	#accomodation-bed { width: calc(590px * 0.90)!important; }
+	#transit-train { width: calc(450px * 0.90)!important; }
+	#day-after-img { width: calc(450px * 0.90)!important; }
+	#practical-ceiling { width: calc(450px * 0.90)!important; }
+	#flower { width: calc(440px * 0.90)!important; }
+	#cocktails-champagne { width: calc(384px * 0.90)!important; }
+	#cocktails-drinks { max-height: calc(400px * 0.90)!important; }
+	#welcome-image img { max-height: 480px!important; }
+	#welcome-text { left: 46px; }
 }
 
-@media only screen and (min-width: 1440px) and (max-width: 1669px) {
+@media only screen and (min-width: 1439px) and (max-width: 1680px) {
 	.title-text-size{ font-size: 70px; }
 	.sub-text-size{ font-size: 27px; }
+	#accomodation-bed { right: 140!important; }
+	#day-after-img { right: 130!important; }
+	#table-flower { right: 150!important; }
+	#welcome-image img {
+		max-height: 585px!important;
+	}
 }
 
-@media only screen and (min-width: 1670px) {
+@media only screen and (min-width: 1681px) {
 	.title-text-size{ font-size: 80px; }
 	.sub-text-size{ font-size: 30px; }
+	#welcome-image img { max-height: 630px!important; }
 }
 
 

@@ -131,7 +131,7 @@
 	}
 }
 
-@media only screen and (min-width: 1441px) {
+/* @media only screen and (min-width: 1441px) {
 	#welcome-text{
 		left: 235px;
 		top: 200px;
@@ -142,7 +142,7 @@
 		max-height: 600px;
 		width: auto;
 	}
-}
+} */
 
 /* @media only screen and (max-width: 1024px) {
 	#welcome-image img{
