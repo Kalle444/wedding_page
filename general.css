@@ -12,7 +12,7 @@ img {
     width: auto; /* ie8 */
 }
 
-@media only screen and (min-width: 0px) and (max-width: 700px) {
+@media only screen and (min-width: 375px) and (max-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
 	.title-text-size{ font-size: 35px; }
 	.sub-text-size{ font-size: 17px; }
 	.non-small { display: none!important; }
