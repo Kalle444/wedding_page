@@ -1,0 +1,86 @@
+#gifts-container{
+	height: 100%;
+  width: 100%;
+	display: flex;
+	position: relative;
+	margin-top: 70px;
+}
+
+#gifts-container-left{
+	flex: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#gifts-art-container{
+	display: flex;
+	flex: 50%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#gifts-travel-container{
+	display: flex;
+	flex: 50%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+#gifts-art-text {
+	flex-basis: auto;
+	text-align: center;
+	font-family: 'Libre Baskerville', serif;
+}
+
+#gifts-travel-text {
+	flex-basis: auto;
+	text-align: center;
+	font-family: 'Libre Baskerville', serif;
+}
+
+#gifts-art {
+	height: auto;
+	max-height: 394px;
+	width: auto;
+	bottom: 145px;
+	left: 330px;
+}
+
+#gifts-travel {
+	display: block;
+	height: auto;
+	/* max-height: 540px; */
+	width: 290px;
+	left: 46px;
+	top: 115px;
+}
+
+
+/* right side */
+#gifts-container-right{
+	flex: 50%;
+	display: flex;
+	position: relative;
+}
+
+#gifts-text{
+	text-align: center;
+	color: black;
+	font-family: 'Libre Baskerville', serif;
+
+}
+
+#gifts-title {
+
+}
+
+.gifts-sub-text {
+
+	padding: 20px 70px;
+	margin-top: 0px;
+}

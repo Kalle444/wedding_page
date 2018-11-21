@@ -108,6 +108,25 @@
 		 height: 100%;
 	 }
 
+	 #gifts-art {
+	 	height: auto;
+		max-height: calc(394px * 0.70)!important;
+	 	width: auto;
+	 	bottom: 145px;
+	 	left: 330px;
+	 }
+
+	 #gifts-travel {
+	 	display: block;
+	 	height: auto;
+		width: calc(290px * 0.70)!important;
+	 	/* max-height: 540px; */
+	 	/* width: 290px; */
+	 	left: 46px;
+	 	top: 115px;
+	 }
+
+
 	 #day-after-img {
 		 width: calc(450px * 0.70)!important;
 		 bottom: 0px!important;
