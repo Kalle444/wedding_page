@@ -7,6 +7,10 @@ body{
 .title-text-size{ font-size: 70px; }
 .sub-text-size{ font-size: 27px; }
 .medium-size{ display: none!important; }
+
+.mobile-title-text-size{ font-size: 30px; }
+.mobile-sub-text-size{ font-size: 14px; }
+.mobile-small-text-size{ font-size: 10px; }
 img {
     height: auto;
     width: auto; /* ie8 */
